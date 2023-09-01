@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TeduCoreApp.Infrastructure\TeduWeb.Infrastructure.csproj" />
     <ProjectReference Include="..\TeduWeb.Application\TeduWeb.Application.csproj" />
     <ProjectReference Include="..\TeduWeb.Data.EF\TeduWeb.Data.EF.csproj" />
