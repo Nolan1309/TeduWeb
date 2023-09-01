@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuarations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCoreApp.Infrastructure\TeduWeb.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeduWeb.Data\TeduWeb.Data.csproj" />
+    <ProjectReference Include="..\TeduWeb.Utilities\TeduWeb.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

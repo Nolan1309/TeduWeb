@@ -4,4 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Constants - Copy\**" />
+    <Compile Remove="DTOs - Copy\**" />
+    <Compile Remove="Helpers - Copy\**" />
+    <EmbeddedResource Remove="Constants - Copy\**" />
+    <EmbeddedResource Remove="DTOs - Copy\**" />
+    <EmbeddedResource Remove="Helpers - Copy\**" />
+    <None Remove="Constants - Copy\**" />
+    <None Remove="DTOs - Copy\**" />
+    <None Remove="Helpers - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helper\" />
+    <Folder Include="Constants\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 </Project>
