@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configuarations\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
